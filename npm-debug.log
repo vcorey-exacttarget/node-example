@@ -1,0 +1,969 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'browserify' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'browserify', null ]
+5 verbose cache add name=undefined spec="browserify" args=["browserify",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'browserify',
+6 verbose parsed url   path: 'browserify',
+6 verbose parsed url   href: 'browserify' }
+7 silly lockFile 84c1c54e-browserify browserify
+8 verbose lock browserify /Users/vcorey/.npm/84c1c54e-browserify.lock
+9 silly lockFile 84c1c54e-browserify browserify
+10 silly lockFile 84c1c54e-browserify browserify
+11 verbose addNamed [ 'browserify', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 80140245-browserify browserify@
+14 verbose lock browserify@ /Users/vcorey/.npm/80140245-browserify.lock
+15 silly addNameRange { name: 'browserify', range: '*', hasData: false }
+16 verbose url raw browserify
+17 verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+18 verbose url resolved https://registry.npmjs.org/browserify
+19 info trying registry request attempt 1 at 15:18:02
+20 http GET https://registry.npmjs.org/browserify
+21 http 200 https://registry.npmjs.org/browserify
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 25 Feb 2014 23:18:03 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     etag: '"6G3N0PKP8RY2Z3FX2B6K5C5HH"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '493860',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '2273',
+22 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-lax1425-LAX',
+22 silly registry.get     'x-cache': 'HIT, HIT',
+22 silly registry.get     'x-cache-hits': '1, 1',
+22 silly registry.get     'x-timer': 'S1393330057.261326790,VS0,VS-101,VE-22,VE40226387',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'browserify', range: '*', hasData: true }
+24 silly addNameRange versions [ 'browserify',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.2.11',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.4.9',
+24 silly addNameRange     '0.4.10',
+24 silly addNameRange     '0.4.11',
+24 silly addNameRange     '0.4.12',
+24 silly addNameRange     '0.4.13',
+24 silly addNameRange     '0.4.14',
+24 silly addNameRange     '0.4.15',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.1.3',
+24 silly addNameRange     '1.1.4',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.2.3',
+24 silly addNameRange     '1.2.4',
+24 silly addNameRange     '1.2.5',
+24 silly addNameRange     '1.2.6',
+24 silly addNameRange     '1.2.7',
+24 silly addNameRange     '1.2.8',
+24 silly addNameRange     '1.2.9',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.4.2',
+24 silly addNameRange     '1.4.3',
+24 silly addNameRange     '1.4.4',
+24 silly addNameRange     '1.4.5',
+24 silly addNameRange     '1.4.6',
+24 silly addNameRange     '1.4.7',
+24 silly addNameRange     '1.4.8',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.6.1',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.7.1',
+24 silly addNameRange     '1.7.2',
+24 silly addNameRange     '1.7.3',
+24 silly addNameRange     '1.7.4',
+24 silly addNameRange     '1.7.5',
+24 silly addNameRange     '1.7.6',
+24 silly addNameRange     '1.7.7',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.8.1',
+24 silly addNameRange     '1.8.2',
+24 silly addNameRange     '1.8.3',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.9.1',
+24 silly addNameRange     '1.9.2',
+24 silly addNameRange     '1.9.3',
+24 silly addNameRange     '1.9.4',
+24 silly addNameRange     '1.10.0',
+24 silly addNameRange     '1.10.1',
+24 silly addNameRange     '1.10.2',
+24 silly addNameRange     '1.10.3',
+24 silly addNameRange     '1.10.4',
+24 silly addNameRange     '1.10.5',
+24 silly addNameRange     '1.10.6',
+24 silly addNameRange     '1.10.7',
+24 silly addNameRange     '1.10.8',
+24 silly addNameRange     '1.10.9',
+24 silly addNameRange     '1.10.11',
+24 silly addNameRange     '1.10.12',
+24 silly addNameRange     '1.10.13',
+24 silly addNameRange     '1.10.14',
+24 silly addNameRange     '1.10.15',
+24 silly addNameRange     '1.10.16',
+24 silly addNameRange     '1.10.17',
+24 silly addNameRange     '1.11.0',
+24 silly addNameRange     '1.11.1',
+24 silly addNameRange     '1.12.0',
+24 silly addNameRange     '1.12.1',
+24 silly addNameRange     '1.12.2',
+24 silly addNameRange     '1.12.3',
+24 silly addNameRange     '1.13.0',
+24 silly addNameRange     '1.13.1',
+24 silly addNameRange     '1.13.2',
+24 silly addNameRange     '1.13.3',
+24 silly addNameRange     '1.13.4',
+24 silly addNameRange     '1.13.5',
+24 silly addNameRange     '1.13.6',
+24 silly addNameRange     '1.13.8',
+24 silly addNameRange     '1.13.9',
+24 silly addNameRange     '1.13.10',
+24 silly addNameRange     '1.14.0',
+24 silly addNameRange     '1.14.1',
+24 silly addNameRange     '1.14.2',
+24 silly addNameRange     '1.14.3',
+24 silly addNameRange     '1.14.4',
+24 silly addNameRange     '1.14.5',
+24 silly addNameRange     '1.15.0',
+24 silly addNameRange     '1.15.1',
+24 silly addNameRange     '1.15.2',
+24 silly addNameRange     '1.15.3',
+24 silly addNameRange     '1.15.4',
+24 silly addNameRange     '1.15.5',
+24 silly addNameRange     '1.15.6',
+24 silly addNameRange     '1.16.0',
+24 silly addNameRange     '1.16.1',
+24 silly addNameRange     '1.16.2',
+24 silly addNameRange     '1.16.3',
+24 silly addNameRange     '1.16.4',
+24 silly addNameRange     '1.16.5',
+24 silly addNameRange     '1.16.6',
+24 silly addNameRange     '1.16.7',
+24 silly addNameRange     '1.16.8',
+24 silly addNameRange     '1.17.0',
+24 silly addNameRange     '1.17.1',
+24 silly addNameRange     '1.17.2',
+24 silly addNameRange     '1.17.3',
+24 silly addNameRange     '1.18.0',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.2.3',
+24 silly addNameRange     '2.2.4',
+24 silly addNameRange     '2.2.5',
+24 silly addNameRange     '2.2.6',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.4.1',
+24 silly addNameRange     '2.4.2',
+24 silly addNameRange     '2.4.3',
+24 silly addNameRange     '2.5.0',
+24 silly addNameRange     '2.5.1',
+24 silly addNameRange     '2.6.0',
+24 silly addNameRange     '2.6.1',
+24 silly addNameRange     '2.7.0',
+24 silly addNameRange     '2.7.1',
+24 silly addNameRange     '2.7.2',
+24 silly addNameRange     '2.7.3',
+24 silly addNameRange     '2.7.4',
+24 silly addNameRange     '2.8.0',
+24 silly addNameRange     '2.8.1',
+24 silly addNameRange     '2.9.0',
+24 silly addNameRange     '2.10.0',
+24 silly addNameRange     '2.10.1',
+24 silly addNameRange     '2.10.2',
+24 silly addNameRange     '2.11.0',
+24 silly addNameRange     '2.12.0',
+24 silly addNameRange     '2.12.1',
+24 silly addNameRange     '2.12.2',
+24 silly addNameRange     '2.12.3',
+24 silly addNameRange     '2.12.4',
+24 silly addNameRange     '2.12.5',
+24 silly addNameRange     '2.13.0',
+24 silly addNameRange     '2.13.1',
+24 silly addNameRange     '2.13.2',
+24 silly addNameRange     '2.13.3',
+24 silly addNameRange     '2.14.0',
+24 silly addNameRange     '2.14.1',
+24 silly addNameRange     '2.14.2',
+24 silly addNameRange     '2.15.0',
+24 silly addNameRange     '2.16.0',
+24 silly addNameRange     '2.17.0',
+24 silly addNameRange     '2.17.1',
+24 silly addNameRange     '2.17.2',
+24 silly addNameRange     '2.17.3',
+24 silly addNameRange     '2.17.4',
+24 silly addNameRange     '2.18.0',
+24 silly addNameRange     '2.18.1',
+24 silly addNameRange     '2.19.0',
+24 silly addNameRange     '2.20.0',
+24 silly addNameRange     '2.20.1',
+24 silly addNameRange     '2.20.2',
+24 silly addNameRange     '2.21.0',
+24 silly addNameRange     '2.22.0',
+24 silly addNameRange     '2.23.0',
+24 silly addNameRange     '2.23.1',
+24 silly addNameRange     '2.24.0',
+24 silly addNameRange     '2.24.1',
+24 silly addNameRange     '2.24.2',
+24 silly addNameRange     '2.24.3',
+24 silly addNameRange     '2.25.0',
+24 silly addNameRange     '2.25.1',
+24 silly addNameRange     '2.26.0',
+24 silly addNameRange     '2.27.0',
+24 silly addNameRange     '2.27.1',
+24 silly addNameRange     '2.28.0',
+24 silly addNameRange     '2.29.0',
+24 silly addNameRange     '2.29.1',
+24 silly addNameRange     '2.30.0',
+24 silly addNameRange     '2.31.0',
+24 silly addNameRange     '2.32.0',
+24 silly addNameRange     '2.32.1',
+24 silly addNameRange     '2.32.2',
+24 silly addNameRange     '2.32.3',
+24 silly addNameRange     '2.32.4',
+24 silly addNameRange     '2.33.0',
+24 silly addNameRange     '2.33.1',
+24 silly addNameRange     '2.34.0',
+24 silly addNameRange     '2.34.1',
+24 silly addNameRange     '2.34.2',
+24 silly addNameRange     '2.34.3',
+24 silly addNameRange     '2.35.0',
+24 silly addNameRange     '2.35.1',
+24 silly addNameRange     '2.35.2',
+24 silly addNameRange     '2.35.3',
+24 silly addNameRange     '2.35.4',
+24 silly addNameRange     '2.36.0',
+24 silly addNameRange     '2.36.1',
+24 silly addNameRange     '3.0.0',
+24 silly addNameRange     '3.1.0',
+24 silly addNameRange     '3.1.1',
+24 silly addNameRange     '3.1.2',
+24 silly addNameRange     '3.1.3',
+24 silly addNameRange     '3.2.0',
+24 silly addNameRange     '3.2.1',
+24 silly addNameRange     '3.2.2',
+24 silly addNameRange     '3.3.0',
+24 silly addNameRange     '3.4.0',
+24 silly addNameRange     '3.4.1',
+24 silly addNameRange     '3.5.0',
+24 silly addNameRange     '3.6.0',
+24 silly addNameRange     '3.7.0',
+24 silly addNameRange     '3.8.0',
+24 silly addNameRange     '3.8.1',
+24 silly addNameRange     '3.9.0',
+24 silly addNameRange     '3.9.1',
+24 silly addNameRange     '3.10.0',
+24 silly addNameRange     '3.11.0',
+24 silly addNameRange     '3.11.1',
+24 silly addNameRange     '3.12.0',
+24 silly addNameRange     '3.13.0',
+24 silly addNameRange     '3.14.0',
+24 silly addNameRange     '3.14.1',
+24 silly addNameRange     '3.16.0',
+24 silly addNameRange     '3.16.1',
+24 silly addNameRange     '3.17.0',
+24 silly addNameRange     '3.18.0',
+24 silly addNameRange     '3.19.0',
+24 silly addNameRange     '3.19.1',
+24 silly addNameRange     '3.20.0',
+24 silly addNameRange     '3.20.1',
+24 silly addNameRange     '3.20.2',
+24 silly addNameRange     '3.21.0',
+24 silly addNameRange     '3.21.1',
+24 silly addNameRange     '3.22.0',
+24 silly addNameRange     '3.22.1',
+24 silly addNameRange     '3.23.0',
+24 silly addNameRange     '3.23.1',
+24 silly addNameRange     '3.24.0',
+24 silly addNameRange     '3.24.1',
+24 silly addNameRange     '3.24.2',
+24 silly addNameRange     '3.24.3',
+24 silly addNameRange     '3.24.4',
+24 silly addNameRange     '3.24.5',
+24 silly addNameRange     '3.24.6',
+24 silly addNameRange     '3.24.7',
+24 silly addNameRange     '3.24.8',
+24 silly addNameRange     '3.24.9',
+24 silly addNameRange     '3.24.10',
+24 silly addNameRange     '3.24.11',
+24 silly addNameRange     '3.24.13',
+24 silly addNameRange     '3.25.0',
+24 silly addNameRange     '3.25.1',
+24 silly addNameRange     '3.25.2',
+24 silly addNameRange     '3.26.0',
+24 silly addNameRange     '3.27.0',
+24 silly addNameRange     '3.27.1',
+24 silly addNameRange     '3.28.0',
+24 silly addNameRange     '3.28.1',
+24 silly addNameRange     '3.28.2',
+24 silly addNameRange     '3.29.0',
+24 silly addNameRange     '3.29.1',
+24 silly addNameRange     '3.30.0',
+24 silly addNameRange     '3.30.1',
+24 silly addNameRange     '3.30.2' ] ]
+25 verbose addNamed [ 'browserify', '3.30.2' ]
+26 verbose addNamed [ '3.30.2', '3.30.2' ]
+27 silly lockFile 9aeb60e8-browserify-3-30-2 browserify@3.30.2
+28 verbose lock browserify@3.30.2 /Users/vcorey/.npm/9aeb60e8-browserify-3-30-2.lock
+29 silly lockFile 4786550a-browserify-browserify-3-30-2-tgz https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz
+30 verbose lock https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz /Users/vcorey/.npm/4786550a-browserify-browserify-3-30-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz',
+31 verbose addRemoteTarball   '1e770920df42faa88cc1957e9ee56e264c26aa9a' ]
+32 info retry fetch attempt 1 at 15:18:03
+33 verbose fetch to= /var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz
+34 http GET https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz
+35 http 200 https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz
+36 verbose tar unpack /var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz
+37 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+38 verbose lock tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package /Users/vcorey/.npm/4e87aa0e-3979-0-18350516515783966-package.lock
+39 silly lockFile 23e80171-3979-0-18350516515783966-tmp-tgz tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz
+40 verbose lock tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz /Users/vcorey/.npm/23e80171-3979-0-18350516515783966-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry bin/args.js
+48 silly gunzTarPerm extractEntry bin/cmd.js
+49 silly gunzTarPerm extractEntry bin/advanced.txt
+50 silly gunzTarPerm extractEntry bin/usage.txt
+51 silly gunzTarPerm extractEntry example/api/build.js
+52 silly gunzTarPerm extractEntry example/api/browser/bar.js
+53 silly gunzTarPerm extractEntry example/api/browser/foo.js
+54 silly gunzTarPerm extractEntry example/api/browser/main.js
+55 silly gunzTarPerm extractEntry example/multiple_bundles/beep.js
+56 silly gunzTarPerm extractEntry example/multiple_bundles/boop.js
+57 silly gunzTarPerm extractEntry example/multiple_bundles/robot.js
+58 silly gunzTarPerm extractEntry example/multiple_bundles/build.sh
+59 silly gunzTarPerm extractEntry example/multiple_bundles/static/beep.html
+60 silly gunzTarPerm extractEntry example/multiple_bundles/static/boop.html
+61 silly gunzTarPerm extractEntry example/source_maps/build.js
+62 silly gunzTarPerm extractEntry example/source_maps/build.sh
+63 silly gunzTarPerm extractEntry example/source_maps/index.html
+64 silly gunzTarPerm extractEntry example/source_maps/js/foo.js
+65 silly gunzTarPerm extractEntry example/source_maps/js/main.js
+66 silly gunzTarPerm extractEntry example/source_maps/js/build/.npmignore
+67 silly gunzTarPerm extractEntry example/source_maps/js/wunder/bar.js
+68 silly gunzTarPerm extractEntry lib/_empty.js
+69 silly gunzTarPerm extractEntry lib/_exclude.js
+70 silly gunzTarPerm extractEntry lib/builtins.js
+71 silly gunzTarPerm extractEntry readme.markdown
+72 silly gunzTarPerm extractEntry test/args.js
+73 silly gunzTarPerm extractEntry test/standalone_events.js
+74 silly gunzTarPerm extractEntry test/double_buffer.js
+75 silly gunzTarPerm extractEntry test/standalone.js
+76 silly gunzTarPerm extractEntry test/dollar.js
+77 silly gunzTarPerm extractEntry test/entry.js
+78 silly gunzTarPerm extractEntry test/reverse_multi_bundle.js
+79 silly gunzTarPerm extractEntry test/entry_exec.js
+80 silly gunzTarPerm extractEntry test/retarget.js
+81 silly gunzTarPerm extractEntry test/error_code.js
+82 silly gunzTarPerm extractEntry test/standalone_sourcemap.js
+83 silly gunzTarPerm extractEntry test/require_cache.js
+84 silly gunzTarPerm extractEntry test/dnode.js
+85 silly gunzTarPerm extractEntry test/export.js
+86 silly gunzTarPerm extractEntry test/dep.js
+87 silly gunzTarPerm extractEntry test/process.js
+88 silly gunzTarPerm extractEntry test/dedupe-nomap.js
+89 silly gunzTarPerm extractEntry test/external.js
+90 silly gunzTarPerm extractEntry test/crypto.js
+91 silly gunzTarPerm extractEntry test/paths.js
+92 silly gunzTarPerm extractEntry test/comment.js
+93 silly gunzTarPerm extractEntry test/fake.js
+94 silly gunzTarPerm extractEntry test/stdin.js
+95 silly gunzTarPerm extractEntry test/pack.js
+96 silly gunzTarPerm extractEntry test/coffeeify.js
+97 silly gunzTarPerm extractEntry test/field.js
+98 silly gunzTarPerm extractEntry test/stream.js
+99 silly gunzTarPerm extractEntry test/file_event.js
+100 silly gunzTarPerm extractEntry test/coffee_bin.js
+101 silly gunzTarPerm extractEntry test/no_builtins.js
+102 silly gunzTarPerm extractEntry test/subdep.js
+103 silly gunzTarPerm extractEntry test/glob.js
+104 silly gunzTarPerm extractEntry test/circular.js
+105 silly gunzTarPerm extractEntry test/multi_entry.js
+106 silly gunzTarPerm extractEntry test/tr.js
+107 silly gunzTarPerm extractEntry test/global.js
+108 silly gunzTarPerm extractEntry test/catch.js
+109 silly gunzTarPerm extractEntry test/backbone.js
+110 silly gunzTarPerm extractEntry test/tr_args.js
+111 silly gunzTarPerm extractEntry test/hash.js
+112 silly gunzTarPerm extractEntry test/bundle_sourcemap.js
+113 silly gunzTarPerm extractEntry test/multi_bundle_unique.js
+114 silly gunzTarPerm extractEntry test/bundle.js
+115 silly gunzTarPerm extractEntry test/hash_instance.js
+116 silly gunzTarPerm extractEntry test/buffer.js
+117 silly gunzTarPerm extractEntry test/multi_bundle.js
+118 silly gunzTarPerm extractEntry test/bom.js
+119 silly gunzTarPerm extractEntry test/hash_instance_context.js
+120 silly gunzTarPerm extractEntry test/unicode.js
+121 silly gunzTarPerm extractEntry test/maxlisteners.js
+122 silly gunzTarPerm extractEntry test/bin_entry.js
+123 silly gunzTarPerm extractEntry test/ignore.js
+124 silly gunzTarPerm extractEntry test/bin.js
+125 silly gunzTarPerm extractEntry test/json.js
+126 silly gunzTarPerm extractEntry test/shebang.js
+127 silly gunzTarPerm extractEntry test/util.js
+128 silly gunzTarPerm extractEntry test/entry_exec/fail.js
+129 silly gunzTarPerm extractEntry test/entry_exec/main.js
+130 silly gunzTarPerm extractEntry test/json/main.js
+131 silly gunzTarPerm extractEntry test/json/beep.json
+132 silly gunzTarPerm extractEntry test/ignore/by-id.js
+133 silly gunzTarPerm extractEntry test/ignore/main.js
+134 silly gunzTarPerm extractEntry test/ignore/skip.js
+135 silly gunzTarPerm extractEntry test/multi_bundle/_prelude.js
+136 silly gunzTarPerm extractEntry test/multi_bundle/a.js
+137 silly gunzTarPerm extractEntry test/multi_bundle/b.js
+138 silly gunzTarPerm extractEntry test/multi_bundle/c.js
+139 silly gunzTarPerm extractEntry test/hash_instance_context/main.js
+140 silly gunzTarPerm extractEntry test/hash_instance_context/one/f.js
+141 silly gunzTarPerm extractEntry test/hash_instance_context/one/g.js
+142 silly gunzTarPerm extractEntry test/hash_instance_context/one/dir/f.js
+143 silly gunzTarPerm extractEntry test/hash_instance_context/one/dir/g.js
+144 silly gunzTarPerm extractEntry test/hash_instance_context/three/f.js
+145 silly gunzTarPerm extractEntry test/hash_instance_context/three/g.js
+146 silly gunzTarPerm extractEntry test/hash_instance_context/three/h.js
+147 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/f.js
+148 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/g.js
+149 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/h.js
+150 silly gunzTarPerm extractEntry test/hash_instance_context/two/f.js
+151 silly gunzTarPerm extractEntry test/hash_instance_context/two/g.js
+152 silly gunzTarPerm extractEntry test/hash_instance_context/two/h.js
+153 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/f.js
+154 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/g.js
+155 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/h.js
+156 silly gunzTarPerm extractEntry test/hash_instance/main.js
+157 silly gunzTarPerm extractEntry test/hash_instance/one.js
+158 silly gunzTarPerm extractEntry test/hash_instance/foo/two.js
+159 silly gunzTarPerm extractEntry test/multi_entry/a.js
+160 silly gunzTarPerm extractEntry test/multi_entry/b.js
+161 silly gunzTarPerm extractEntry test/multi_entry/c.js
+162 silly gunzTarPerm extractEntry test/global/buffer.js
+163 silly gunzTarPerm extractEntry test/global/filename.js
+164 silly gunzTarPerm extractEntry test/global/main.js
+165 silly gunzTarPerm extractEntry test/global/tick.js
+166 silly gunzTarPerm extractEntry test/no_builtins/main.js
+167 silly gunzTarPerm extractEntry test/no_builtins/x.txt
+168 silly gunzTarPerm extractEntry test/glob/a.js
+169 silly gunzTarPerm extractEntry test/glob/b.js
+170 silly gunzTarPerm extractEntry test/glob/lib/z.js
+171 silly gunzTarPerm extractEntry test/glob/vendor/x.js
+172 silly gunzTarPerm extractEntry test/glob/vendor/y.js
+173 silly gunzTarPerm extractEntry test/bom/hello.js
+174 silly gunzTarPerm extractEntry test/field/miss.js
+175 silly gunzTarPerm extractEntry test/field/object.js
+176 silly gunzTarPerm extractEntry test/field/string.js
+177 silly gunzTarPerm extractEntry test/field/sub.js
+178 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/package.json
+179 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/browser.js
+180 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/main.js
+181 silly gunzTarPerm extractEntry test/field/node_modules/z-object/package.json
+182 silly gunzTarPerm extractEntry test/field/node_modules/z-object/browser.js
+183 silly gunzTarPerm extractEntry test/field/node_modules/z-object/main.js
+184 silly gunzTarPerm extractEntry test/field/node_modules/z-string/package.json
+185 silly gunzTarPerm extractEntry test/field/node_modules/z-string/browser.js
+186 silly gunzTarPerm extractEntry test/field/node_modules/z-string/main.js
+187 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/package.json
+188 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/main.js
+189 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/a.js
+190 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/b.js
+191 silly gunzTarPerm extractEntry test/paths/main.js
+192 silly gunzTarPerm extractEntry test/paths/x/aaa/index.js
+193 silly gunzTarPerm extractEntry test/paths/x/ccc/index.js
+194 silly gunzTarPerm extractEntry test/paths/y/bbb/index.js
+195 silly gunzTarPerm extractEntry test/paths/y/ccc/index.js
+196 silly gunzTarPerm extractEntry test/fake/fake_fs.js
+197 silly gunzTarPerm extractEntry test/fake/main.js
+198 silly gunzTarPerm extractEntry test/process/main.js
+199 silly gunzTarPerm extractEntry test/process/one.js
+200 silly gunzTarPerm extractEntry test/process/two.js
+201 silly gunzTarPerm extractEntry test/external/main.js
+202 silly gunzTarPerm extractEntry test/external/x.js
+203 silly gunzTarPerm extractEntry test/export/entry.js
+204 silly gunzTarPerm extractEntry test/error_code/src.js
+205 silly gunzTarPerm extractEntry test/reverse_multi_bundle/app.js
+206 silly gunzTarPerm extractEntry test/reverse_multi_bundle/arbitrary.js
+207 silly gunzTarPerm extractEntry test/reverse_multi_bundle/lazy.js
+208 silly gunzTarPerm extractEntry test/reverse_multi_bundle/shared.js
+209 silly gunzTarPerm extractEntry test/maxlisteners/main.js
+210 silly gunzTarPerm extractEntry test/shebang/foo.js
+211 silly gunzTarPerm extractEntry test/shebang/main.js
+212 silly gunzTarPerm extractEntry test/entry/main.js
+213 silly gunzTarPerm extractEntry test/entry/one.js
+214 silly gunzTarPerm extractEntry test/entry/two.js
+215 silly gunzTarPerm extractEntry test/standalone/main.js
+216 silly gunzTarPerm extractEntry test/standalone/one.js
+217 silly gunzTarPerm extractEntry test/standalone/two.js
+218 silly gunzTarPerm extractEntry test/dup/foo-dup.js
+219 silly gunzTarPerm extractEntry test/dup/foo.js
+220 silly gunzTarPerm extractEntry test/dup/index.js
+221 silly gunzTarPerm extractEntry test/double_buffer/explicit.js
+222 silly gunzTarPerm extractEntry test/double_buffer/implicit.js
+223 silly gunzTarPerm extractEntry test/double_buffer/main.js
+224 silly gunzTarPerm extractEntry test/dollar/dollar/index.js
+225 silly gunzTarPerm extractEntry test/comment/main.js
+226 silly gunzTarPerm extractEntry test/stream/bar.js
+227 silly gunzTarPerm extractEntry test/stream/foo.js
+228 silly gunzTarPerm extractEntry test/stream/main.js
+229 silly gunzTarPerm extractEntry test/coffeeify/main.coffee
+230 silly gunzTarPerm extractEntry test/subdep/package.json
+231 silly gunzTarPerm extractEntry test/subdep/index.js
+232 silly gunzTarPerm extractEntry test/coffee_bin/main.coffee
+233 silly gunzTarPerm extractEntry test/coffee_bin/x.coffee
+234 silly gunzTarPerm extractEntry test/tr/package.json
+235 silly gunzTarPerm extractEntry test/tr/f.js
+236 silly gunzTarPerm extractEntry test/tr/main.js
+237 silly gunzTarPerm extractEntry test/tr/subdir/g.js
+238 silly gunzTarPerm extractEntry test/circular/a.js
+239 silly gunzTarPerm extractEntry test/circular/b.js
+240 silly gunzTarPerm extractEntry test/circular/main.js
+241 silly gunzTarPerm extractEntry test/tr_args/main.js
+242 silly gunzTarPerm extractEntry test/tr_args/tr.js
+243 silly gunzTarPerm extractEntry test/catch/main.js
+244 silly gunzTarPerm extractEntry test/unicode/main.js
+245 silly gunzTarPerm extractEntry test/unicode/one.js
+246 silly gunzTarPerm extractEntry test/unicode/two.js
+247 silly gunzTarPerm extractEntry test/hash/main.js
+248 silly gunzTarPerm extractEntry test/hash/one.js
+249 silly gunzTarPerm extractEntry test/hash/other.js
+250 silly gunzTarPerm extractEntry test/hash/foo/other.js
+251 silly gunzTarPerm extractEntry test/hash/foo/two.js
+252 silly gunzTarPerm extractEntry test/node_modules/beep/index.js
+253 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+254 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+255 silly lockFile 23e80171-3979-0-18350516515783966-tmp-tgz tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz
+256 silly lockFile 23e80171-3979-0-18350516515783966-tmp-tgz tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/tmp.tgz
+257 verbose tar pack [ '/Users/vcorey/.npm/browserify/3.30.2/package.tgz',
+257 verbose tar pack   '/var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package' ]
+258 verbose tarball /Users/vcorey/.npm/browserify/3.30.2/package.tgz
+259 verbose folder /var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+260 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+261 verbose lock tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package /Users/vcorey/.npm/4e87aa0e-3979-0-18350516515783966-package.lock
+262 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+263 verbose lock tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz /Users/vcorey/.npm/a3c1f4bd-pm-browserify-3-30-2-package-tgz.lock
+264 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+265 silly lockFile 4e87aa0e-3979-0-18350516515783966-package tar:///var/folders/5f/t8sw9rs53m56zxy5xdb_c1brnv937j/T/npm-7358-bqJbjBoH/1393370283979-0.18350516515783966/package
+266 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+267 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+268 silly lockFile e78b40d8-ey-npm-browserify-3-30-2-package /Users/vcorey/.npm/browserify/3.30.2/package
+269 verbose lock /Users/vcorey/.npm/browserify/3.30.2/package /Users/vcorey/.npm/e78b40d8-ey-npm-browserify-3-30-2-package.lock
+270 silly lockFile e78b40d8-ey-npm-browserify-3-30-2-package /Users/vcorey/.npm/browserify/3.30.2/package
+271 silly lockFile e78b40d8-ey-npm-browserify-3-30-2-package /Users/vcorey/.npm/browserify/3.30.2/package
+272 verbose tar unpack /Users/vcorey/.npm/browserify/3.30.2/package.tgz
+273 silly lockFile 2bde4fcf-ey-npm-browserify-3-30-2-package tar:///Users/vcorey/.npm/browserify/3.30.2/package
+274 verbose lock tar:///Users/vcorey/.npm/browserify/3.30.2/package /Users/vcorey/.npm/2bde4fcf-ey-npm-browserify-3-30-2-package.lock
+275 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+276 verbose lock tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz /Users/vcorey/.npm/a3c1f4bd-pm-browserify-3-30-2-package-tgz.lock
+277 silly gunzTarPerm modes [ '755', '644' ]
+278 silly gunzTarPerm extractEntry package.json
+279 silly gunzTarPerm extractEntry .npmignore
+280 silly gunzTarPerm extractEntry LICENSE
+281 silly gunzTarPerm extractEntry index.js
+282 silly gunzTarPerm extractEntry .travis.yml
+283 silly gunzTarPerm extractEntry bin/args.js
+284 silly gunzTarPerm extractEntry bin/cmd.js
+285 silly gunzTarPerm extractEntry bin/advanced.txt
+286 silly gunzTarPerm extractEntry bin/usage.txt
+287 silly gunzTarPerm extractEntry example/api/build.js
+288 silly gunzTarPerm extractEntry example/api/browser/bar.js
+289 silly gunzTarPerm extractEntry example/api/browser/foo.js
+290 silly gunzTarPerm extractEntry example/api/browser/main.js
+291 silly gunzTarPerm extractEntry example/multiple_bundles/beep.js
+292 silly gunzTarPerm extractEntry example/multiple_bundles/boop.js
+293 silly gunzTarPerm extractEntry example/multiple_bundles/robot.js
+294 silly gunzTarPerm extractEntry example/multiple_bundles/build.sh
+295 silly gunzTarPerm extractEntry example/multiple_bundles/static/beep.html
+296 silly gunzTarPerm extractEntry example/multiple_bundles/static/boop.html
+297 silly gunzTarPerm extractEntry example/source_maps/build.js
+298 silly gunzTarPerm extractEntry example/source_maps/build.sh
+299 silly gunzTarPerm extractEntry example/source_maps/index.html
+300 silly gunzTarPerm extractEntry example/source_maps/js/foo.js
+301 silly gunzTarPerm extractEntry example/source_maps/js/main.js
+302 silly gunzTarPerm extractEntry example/source_maps/js/build/.npmignore
+303 silly gunzTarPerm extractEntry example/source_maps/js/wunder/bar.js
+304 silly gunzTarPerm extractEntry lib/_empty.js
+305 silly gunzTarPerm extractEntry lib/_exclude.js
+306 silly gunzTarPerm extractEntry lib/builtins.js
+307 silly gunzTarPerm extractEntry readme.markdown
+308 silly gunzTarPerm extractEntry test/args.js
+309 silly gunzTarPerm extractEntry test/standalone_events.js
+310 silly gunzTarPerm extractEntry test/double_buffer.js
+311 silly gunzTarPerm extractEntry test/standalone.js
+312 silly gunzTarPerm extractEntry test/dollar.js
+313 silly gunzTarPerm extractEntry test/entry.js
+314 silly gunzTarPerm extractEntry test/reverse_multi_bundle.js
+315 silly gunzTarPerm extractEntry test/entry_exec.js
+316 silly gunzTarPerm extractEntry test/retarget.js
+317 silly gunzTarPerm extractEntry test/error_code.js
+318 silly gunzTarPerm extractEntry test/standalone_sourcemap.js
+319 silly gunzTarPerm extractEntry test/require_cache.js
+320 silly gunzTarPerm extractEntry test/dnode.js
+321 silly gunzTarPerm extractEntry test/export.js
+322 silly gunzTarPerm extractEntry test/dep.js
+323 silly gunzTarPerm extractEntry test/process.js
+324 silly gunzTarPerm extractEntry test/dedupe-nomap.js
+325 silly gunzTarPerm extractEntry test/external.js
+326 silly gunzTarPerm extractEntry test/crypto.js
+327 silly gunzTarPerm extractEntry test/paths.js
+328 silly gunzTarPerm extractEntry test/comment.js
+329 silly gunzTarPerm extractEntry test/fake.js
+330 silly gunzTarPerm extractEntry test/stdin.js
+331 silly gunzTarPerm extractEntry test/pack.js
+332 silly gunzTarPerm extractEntry test/coffeeify.js
+333 silly gunzTarPerm extractEntry test/field.js
+334 silly gunzTarPerm extractEntry test/stream.js
+335 silly gunzTarPerm extractEntry test/file_event.js
+336 silly gunzTarPerm extractEntry test/coffee_bin.js
+337 silly gunzTarPerm extractEntry test/no_builtins.js
+338 silly gunzTarPerm extractEntry test/subdep.js
+339 silly gunzTarPerm extractEntry test/glob.js
+340 silly gunzTarPerm extractEntry test/circular.js
+341 silly gunzTarPerm extractEntry test/multi_entry.js
+342 silly gunzTarPerm extractEntry test/tr.js
+343 silly gunzTarPerm extractEntry test/global.js
+344 silly gunzTarPerm extractEntry test/catch.js
+345 silly gunzTarPerm extractEntry test/backbone.js
+346 silly gunzTarPerm extractEntry test/tr_args.js
+347 silly gunzTarPerm extractEntry test/hash.js
+348 silly gunzTarPerm extractEntry test/bundle_sourcemap.js
+349 silly gunzTarPerm extractEntry test/multi_bundle_unique.js
+350 silly gunzTarPerm extractEntry test/bundle.js
+351 silly gunzTarPerm extractEntry test/hash_instance.js
+352 silly gunzTarPerm extractEntry test/buffer.js
+353 silly gunzTarPerm extractEntry test/multi_bundle.js
+354 silly gunzTarPerm extractEntry test/bom.js
+355 silly gunzTarPerm extractEntry test/hash_instance_context.js
+356 silly gunzTarPerm extractEntry test/unicode.js
+357 silly gunzTarPerm extractEntry test/maxlisteners.js
+358 silly gunzTarPerm extractEntry test/bin_entry.js
+359 silly gunzTarPerm extractEntry test/ignore.js
+360 silly gunzTarPerm extractEntry test/bin.js
+361 silly gunzTarPerm extractEntry test/json.js
+362 silly gunzTarPerm extractEntry test/shebang.js
+363 silly gunzTarPerm extractEntry test/util.js
+364 silly gunzTarPerm extractEntry test/entry_exec/fail.js
+365 silly gunzTarPerm extractEntry test/entry_exec/main.js
+366 silly gunzTarPerm extractEntry test/json/main.js
+367 silly gunzTarPerm extractEntry test/json/beep.json
+368 silly gunzTarPerm extractEntry test/ignore/by-id.js
+369 silly gunzTarPerm extractEntry test/ignore/main.js
+370 silly gunzTarPerm extractEntry test/ignore/skip.js
+371 silly gunzTarPerm extractEntry test/multi_bundle/_prelude.js
+372 silly gunzTarPerm extractEntry test/multi_bundle/a.js
+373 silly gunzTarPerm extractEntry test/multi_bundle/b.js
+374 silly gunzTarPerm extractEntry test/multi_bundle/c.js
+375 silly gunzTarPerm extractEntry test/hash_instance_context/main.js
+376 silly gunzTarPerm extractEntry test/hash_instance_context/one/f.js
+377 silly gunzTarPerm extractEntry test/hash_instance_context/one/g.js
+378 silly gunzTarPerm extractEntry test/hash_instance_context/one/dir/f.js
+379 silly gunzTarPerm extractEntry test/hash_instance_context/one/dir/g.js
+380 silly gunzTarPerm extractEntry test/hash_instance_context/three/f.js
+381 silly gunzTarPerm extractEntry test/hash_instance_context/three/g.js
+382 silly gunzTarPerm extractEntry test/hash_instance_context/three/h.js
+383 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/f.js
+384 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/g.js
+385 silly gunzTarPerm extractEntry test/hash_instance_context/three/dir/h.js
+386 silly gunzTarPerm extractEntry test/hash_instance_context/two/f.js
+387 silly gunzTarPerm extractEntry test/hash_instance_context/two/g.js
+388 silly gunzTarPerm extractEntry test/hash_instance_context/two/h.js
+389 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/f.js
+390 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/g.js
+391 silly gunzTarPerm extractEntry test/hash_instance_context/two/dir/h.js
+392 silly gunzTarPerm extractEntry test/hash_instance/main.js
+393 silly gunzTarPerm extractEntry test/hash_instance/one.js
+394 silly gunzTarPerm extractEntry test/hash_instance/foo/two.js
+395 silly gunzTarPerm extractEntry test/multi_entry/a.js
+396 silly gunzTarPerm extractEntry test/multi_entry/b.js
+397 silly gunzTarPerm extractEntry test/multi_entry/c.js
+398 silly gunzTarPerm extractEntry test/global/buffer.js
+399 silly gunzTarPerm extractEntry test/global/filename.js
+400 silly gunzTarPerm extractEntry test/global/main.js
+401 silly gunzTarPerm extractEntry test/global/tick.js
+402 silly gunzTarPerm extractEntry test/no_builtins/main.js
+403 silly gunzTarPerm extractEntry test/no_builtins/x.txt
+404 silly gunzTarPerm extractEntry test/glob/a.js
+405 silly gunzTarPerm extractEntry test/glob/b.js
+406 silly gunzTarPerm extractEntry test/glob/lib/z.js
+407 silly gunzTarPerm extractEntry test/glob/vendor/x.js
+408 silly gunzTarPerm extractEntry test/glob/vendor/y.js
+409 silly gunzTarPerm extractEntry test/bom/hello.js
+410 silly gunzTarPerm extractEntry test/field/miss.js
+411 silly gunzTarPerm extractEntry test/field/object.js
+412 silly gunzTarPerm extractEntry test/field/string.js
+413 silly gunzTarPerm extractEntry test/field/sub.js
+414 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/package.json
+415 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/browser.js
+416 silly gunzTarPerm extractEntry test/field/node_modules/z-miss/main.js
+417 silly gunzTarPerm extractEntry test/field/node_modules/z-object/package.json
+418 silly gunzTarPerm extractEntry test/field/node_modules/z-object/browser.js
+419 silly gunzTarPerm extractEntry test/field/node_modules/z-object/main.js
+420 silly gunzTarPerm extractEntry test/field/node_modules/z-string/package.json
+421 silly gunzTarPerm extractEntry test/field/node_modules/z-string/browser.js
+422 silly gunzTarPerm extractEntry test/field/node_modules/z-string/main.js
+423 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/package.json
+424 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/main.js
+425 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/a.js
+426 silly gunzTarPerm extractEntry test/field/node_modules/z-sub/browser/b.js
+427 silly gunzTarPerm extractEntry test/paths/main.js
+428 silly gunzTarPerm extractEntry test/paths/x/aaa/index.js
+429 silly gunzTarPerm extractEntry test/paths/x/ccc/index.js
+430 silly gunzTarPerm extractEntry test/paths/y/bbb/index.js
+431 silly gunzTarPerm extractEntry test/paths/y/ccc/index.js
+432 silly gunzTarPerm extractEntry test/fake/fake_fs.js
+433 silly gunzTarPerm extractEntry test/fake/main.js
+434 silly gunzTarPerm extractEntry test/process/main.js
+435 silly gunzTarPerm extractEntry test/process/one.js
+436 silly gunzTarPerm extractEntry test/process/two.js
+437 silly gunzTarPerm extractEntry test/external/main.js
+438 silly gunzTarPerm extractEntry test/external/x.js
+439 silly gunzTarPerm extractEntry test/export/entry.js
+440 silly gunzTarPerm extractEntry test/error_code/src.js
+441 silly gunzTarPerm extractEntry test/reverse_multi_bundle/app.js
+442 silly gunzTarPerm extractEntry test/reverse_multi_bundle/arbitrary.js
+443 silly gunzTarPerm extractEntry test/reverse_multi_bundle/lazy.js
+444 silly gunzTarPerm extractEntry test/reverse_multi_bundle/shared.js
+445 silly gunzTarPerm extractEntry test/maxlisteners/main.js
+446 silly gunzTarPerm extractEntry test/shebang/foo.js
+447 silly gunzTarPerm extractEntry test/shebang/main.js
+448 silly gunzTarPerm extractEntry test/entry/main.js
+449 silly gunzTarPerm extractEntry test/entry/one.js
+450 silly gunzTarPerm extractEntry test/entry/two.js
+451 silly gunzTarPerm extractEntry test/standalone/main.js
+452 silly gunzTarPerm extractEntry test/standalone/one.js
+453 silly gunzTarPerm extractEntry test/standalone/two.js
+454 silly gunzTarPerm extractEntry test/dup/foo-dup.js
+455 silly gunzTarPerm extractEntry test/dup/foo.js
+456 silly gunzTarPerm extractEntry test/dup/index.js
+457 silly gunzTarPerm extractEntry test/double_buffer/explicit.js
+458 silly gunzTarPerm extractEntry test/double_buffer/implicit.js
+459 silly gunzTarPerm extractEntry test/double_buffer/main.js
+460 silly gunzTarPerm extractEntry test/dollar/dollar/index.js
+461 silly gunzTarPerm extractEntry test/comment/main.js
+462 silly gunzTarPerm extractEntry test/stream/bar.js
+463 silly gunzTarPerm extractEntry test/stream/foo.js
+464 silly gunzTarPerm extractEntry test/stream/main.js
+465 silly gunzTarPerm extractEntry test/coffeeify/main.coffee
+466 silly gunzTarPerm extractEntry test/subdep/package.json
+467 silly gunzTarPerm extractEntry test/subdep/index.js
+468 silly gunzTarPerm extractEntry test/coffee_bin/main.coffee
+469 silly gunzTarPerm extractEntry test/coffee_bin/x.coffee
+470 silly gunzTarPerm extractEntry test/tr/package.json
+471 silly gunzTarPerm extractEntry test/tr/f.js
+472 silly gunzTarPerm extractEntry test/tr/main.js
+473 silly gunzTarPerm extractEntry test/tr/subdir/g.js
+474 silly gunzTarPerm extractEntry test/circular/a.js
+475 silly gunzTarPerm extractEntry test/circular/b.js
+476 silly gunzTarPerm extractEntry test/circular/main.js
+477 silly gunzTarPerm extractEntry test/tr_args/main.js
+478 silly gunzTarPerm extractEntry test/tr_args/tr.js
+479 silly gunzTarPerm extractEntry test/catch/main.js
+480 silly gunzTarPerm extractEntry test/unicode/main.js
+481 silly gunzTarPerm extractEntry test/unicode/one.js
+482 silly gunzTarPerm extractEntry test/unicode/two.js
+483 silly gunzTarPerm extractEntry test/hash/main.js
+484 silly gunzTarPerm extractEntry test/hash/one.js
+485 silly gunzTarPerm extractEntry test/hash/other.js
+486 silly gunzTarPerm extractEntry test/hash/foo/other.js
+487 silly gunzTarPerm extractEntry test/hash/foo/two.js
+488 silly gunzTarPerm extractEntry test/node_modules/beep/index.js
+489 silly lockFile 2bde4fcf-ey-npm-browserify-3-30-2-package tar:///Users/vcorey/.npm/browserify/3.30.2/package
+490 silly lockFile 2bde4fcf-ey-npm-browserify-3-30-2-package tar:///Users/vcorey/.npm/browserify/3.30.2/package
+491 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+492 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+493 verbose chmod /Users/vcorey/.npm/browserify/3.30.2/package.tgz 644
+494 verbose chown /Users/vcorey/.npm/browserify/3.30.2/package.tgz [ 733252849, 85893192 ]
+495 silly lockFile 4786550a-browserify-browserify-3-30-2-tgz https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz
+496 silly lockFile 4786550a-browserify-browserify-3-30-2-tgz https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz
+497 silly lockFile 9aeb60e8-browserify-3-30-2 browserify@3.30.2
+498 silly lockFile 9aeb60e8-browserify-3-30-2 browserify@3.30.2
+499 silly lockFile 80140245-browserify browserify@
+500 silly lockFile 80140245-browserify browserify@
+501 silly resolved [ { name: 'browserify',
+501 silly resolved     version: '3.30.2',
+501 silly resolved     description: 'browser-side require() the node way',
+501 silly resolved     main: 'index.js',
+501 silly resolved     bin: { browserify: 'bin/cmd.js' },
+501 silly resolved     repository:
+501 silly resolved      { type: 'git',
+501 silly resolved        url: 'http://github.com/substack/node-browserify.git' },
+501 silly resolved     keywords:
+501 silly resolved      [ 'browser',
+501 silly resolved        'require',
+501 silly resolved        'commonjs',
+501 silly resolved        'commonj-esque',
+501 silly resolved        'bundle',
+501 silly resolved        'npm',
+501 silly resolved        'javascript' ],
+501 silly resolved     dependencies:
+501 silly resolved      { 'module-deps': '~1.7.0',
+501 silly resolved        'browser-pack': '~2.0.0',
+501 silly resolved        'deps-sort': '~0.1.1',
+501 silly resolved        'shell-quote': '~0.0.1',
+501 silly resolved        through: '~2.3.4',
+501 silly resolved        duplexer: '~0.1.1',
+501 silly resolved        'stream-combiner': '~0.0.2',
+501 silly resolved        'concat-stream': '~1.4.1',
+501 silly resolved        'insert-module-globals': '~3.2.0',
+501 silly resolved        'syntax-error': '~0.1.0',
+501 silly resolved        'browser-resolve': '~1.2.1',
+501 silly resolved        inherits: '~2.0.1',
+501 silly resolved        JSONStream: '~0.7.1',
+501 silly resolved        umd: '~2.0.0',
+501 silly resolved        parents: '~0.0.1',
+501 silly resolved        'deep-equal': '~0.1.0',
+501 silly resolved        'constants-browserify': '~0.0.1',
+501 silly resolved        'os-browserify': '~0.1.1',
+501 silly resolved        'console-browserify': '~1.0.1',
+501 silly resolved        'vm-browserify': '~0.0.1',
+501 silly resolved        'zlib-browserify': '~0.0.3',
+501 silly resolved        assert: '~1.1.0',
+501 silly resolved        'http-browserify': '~1.3.1',
+501 silly resolved        'crypto-browserify': '~1.0.9',
+501 silly resolved        util: '~0.10.1',
+501 silly resolved        events: '~1.0.0',
+501 silly resolved        buffer: '~2.1.4',
+501 silly resolved        url: '~0.7.9',
+501 silly resolved        'https-browserify': '~0.0.0',
+501 silly resolved        'path-browserify': '~0.0.0',
+501 silly resolved        querystring: 'https://github.com/substack/querystring/archive/0.2.0-ie8.tar.gz',
+501 silly resolved        'stream-browserify': '~0.1.0',
+501 silly resolved        string_decoder: '~0.0.0',
+501 silly resolved        'tty-browserify': '~0.0.0',
+501 silly resolved        'timers-browserify': '~1.0.1',
+501 silly resolved        punycode: '~1.2.3',
+501 silly resolved        defined: '~0.0.0',
+501 silly resolved        'domain-browser': '~1.1.0',
+501 silly resolved        derequire: '~0.6.0',
+501 silly resolved        commondir: '0.0.1',
+501 silly resolved        'shallow-copy': '0.0.1',
+501 silly resolved        subarg: '0.0.1',
+501 silly resolved        resolve: '~0.6.1',
+501 silly resolved        glob: '~3.2.8',
+501 silly resolved        builtins: '0.0.2' },
+501 silly resolved     devDependencies:
+501 silly resolved      { tap: '~0.4.0',
+501 silly resolved        mkdirp: '~0.3.3',
+501 silly resolved        backbone: '~0.9.2',
+501 silly resolved        dnode: '~1.0.3',
+501 silly resolved        seq: '0.3.3',
+501 silly resolved        'coffee-script': '~1.5.0',
+501 silly resolved        coffeeify: '~0.6.0' },
+501 silly resolved     author:
+501 silly resolved      { name: 'James Halliday',
+501 silly resolved        email: 'mail@substack.net',
+501 silly resolved        url: 'http://substack.net' },
+501 silly resolved     scripts: { test: 'tap test/*.js' },
+501 silly resolved     license: 'MIT',
+501 silly resolved     readme: '# browserify\n\n`require(\'modules\')` in the browser\n\nUse a [node](http://nodejs.org)-style `require()` to organize your browser code\nand load modules installed by [npm](https://npmjs.org).\n\nbrowserify will recursively analyze all the `require()` calls in your app in\norder to build a bundle you can serve up to the browser in a single `<script>`\ntag.\n\n[![build status](https://secure.travis-ci.org/substack/node-browserify.png)](http://travis-ci.org/substack/node-browserify)\n\n![browserify!](http://substack.net/images/browserify_logo.png)\n\n# example\n\nWhip up a file, `main.js` with some `require()s` in it. You can use relative\npaths like `\'./foo.js\'` and `\'../lib/bar.js\'` or module paths like `\'gamma\'`\nthat will search `node_modules/` using\n[node\'s module lookup algorithm](https://github.com/substack/node-resolve).\n\n``` js\nvar foo = require(\'./foo.js\');\nvar bar = require(\'../lib/bar.js\');\nvar gamma = require(\'gamma\');\n\nvar elem = document.getElementById(\'result\');\nvar x = foo(100) + bar(\'baz\');\nelem.textContent = gamma(x);\n```\n\nExport functionality by assigning onto `module.exports` or `exports`:\n\n``` js\nmodule.exports = function (n) { return n * 111 }\n```\n\nNow just use the `browserify` command to build a bundle starting at `main.js`:\n\n```\n$ browserify main.js > bundle.js\n```\n\nAll of the modules that `main.js` needs are included in the `bundle.js` from a\nrecursive walk of the `require()` graph using\n[required](https://github.com/defunctzombie/node-required).\n\nTo use this bundle, just toss a `<script src="bundle.js"></script>` into your\nhtml!\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install -g browserify\n```\n\n# usage\n\n```\nUsage: browserify [entry files] {OPTIONS}\n\nStandard Options:\n\n    --outfile, -o  Write the browserify bundle to this file.\n                   If unspecified, browserify prints to stdout.\n\n    --require, -r  A module name or file to bundle.require()\n                   Optionally use a colon separator to set the target.\n\n      --entry, -e  An entry point of your app\n  \n     --ignore, -i  Replace a file with an empty stub. Files can be globs.\n \n    --exclude, -u  Omit a file from the output bundle. Files can be globs.\n\n   --external, -x  Reference a file from another bundle. Files can be globs.\n  \n  --transform, -t  Use a transform module on top-level files.\n \n    --command, -c  Use a transform command on top-level files.\n   \n  --standalone -s  Generate a UMD bundle for the supplied export name.\n                   This bundle works with other module systems and sets the name\n                   given as a window global if no module system is found.\n  \n       --debug -d  Enable source maps that allow you to debug your files\n                   separately.\n\n       --help, -h  Show this message\n\nFor advanced options, type `browserify --help advanced`.\n\nSpecify a parameter.\n```\n\n```\nAdvanced Options:\n\n  --insert-globals, --ig, --fast    [default: false]\n\n    Skip detection and always insert definitions for process, global,\n    __filename, and __dirname.\n                  \n    benefit: faster builds\n    cost: extra bytes\n \n  --insert-global-vars, --igv\n\n    Comma-separated list of global variables to detect and define.\n    Default: __filename,__dirname,process,Buffer,global\n \n  --detect-globals, --dg            [default: true]\n\n    Detect the presence of process, global, __filename, and __dirname and define\n    these values when present.\n\n    benefit: npm modules more likely to work\n    cost: slower builds\n\n  --ignore-missing, --im            [default: false]\n\n    Ignore `require()` statements that don\'t resolve to anything.\n\n  --noparse=FILE\n\n    Don\'t parse FILE at all. This will make bundling much, much faster for giant\n    libs like jquery or threejs.\n\n  --no-builtins\n\n    Turn off builtins. This is handy when you want to run a bundle in node which\n    provides the core builtins.\n\n  --no-commondir\n \n    Turn off setting a commondir. This is useful if you want to preserve the\n    original paths that a bundle was generated with. \n \n  --bare \n\n    Alias for both --no-builtins, --no-commondir, and sets --insert-global-vars\n    to just "__filename,__dirname". This is handy if you want to run bundles in\n    node.\n\n  --deps\n  \n    Instead of standard bundle output, print the dependency array generated by\n    module-deps.\n\n  --list\n \n    Print each file in the dependency graph. Useful for makefiles.\n\n  --extension=EXTENSION\n\n    Consider files with specified EXTENSION as modules, this option can used\n    multiple times.\n\n  --global-transform, --g\n\n    Use a transform module on all files after any ordinary transforms have run.\n\nPassing arguments to transforms:\n\n  For -t and -g, you may use subarg syntax to pass options to transforms as the\n  second parameter after the filename. For example:\n\n    -t [ foo -x 3 --beep ]\n\n  will call the `foo` transform for each applicable file by calling:\n\n    foo(file, { x: 3, beep: true })\n\n```\n\n# compatibility\n\nMany [npm](http://npmjs.org) modules that don\'t do IO will just work after being\nbrowserified. Others take more work.\n\nMany node built-in modules have been wrapped to work in the browser, but only\nwhen you explicitly `require()` or use their functionality.\n\nWhen you `require()` any of these modules, you will get a browser-specific shim:\n\n* [assert](https://npmjs.org/package/assert)\n* [buffer](https://npmjs.org/package/buffer)\n* [console](https://npmjs.org/package/console-browserify)\n* [constants](https://npmjs.org/package/constants-browserify)\n* [crypto](https://npmjs.org/package/crypto-browserify)\n* [domain](https://npmjs.org/package/domain-browser)\n* [events](https://npmjs.org/package/events-browserify)\n* [http](https://npmjs.org/package/http-browserify)\n* [https](https://npmjs.org/package/https-browserify)\n* [os](https://npmjs.org/package/os-browserify)\n* [path](https://npmjs.org/package/path-browserify)\n* [punycode](https://npmjs.org/package/punycode)\n* [querystring](https://npmjs.org/package/querystring)\n* [stream](https://npmjs.org/package/stream-browserify)\n* [string_decoder](https://npmjs.org/package/string_decoder)\n* [timers](https://npmjs.org/package/timers-browserify)\n* [tty](https://npmjs.org/package/tty-browserify)\n* [url](https://npmjs.org/package/url)\n* [util](https://npmjs.org/package/util)\n* [vm](https://npmjs.org/package/vm-browserify)\n* [zlib](https://npmjs.org/package/zlib-browserify)\n\nAdditionally if you use any of these variables, they\n[will be defined](https://github.com/substack/insert-module-globals)\nin the bundled output in a browser-appropriate way:\n\n* [process](https://npmjs.org/package/process)\n* [Buffer](https://npmjs.org/package/buffer)\n* global - top-level scope object (window)\n* __filename - file path of the currently executing file\n* __dirname - directory path of the currently executing file\n\n# more examples\n\n## external requires\n\nYou can just as easily create bundle that will export a `require()` function so\nyou can `require()` modules from another script tag. Here we\'ll create a\n`bundle.js` with the [through](https://npmjs.org/package/through)\nand [duplexer](https://npmjs.org/package/duplexer) modules.\n\n```\n$ browserify -r through -r duplexer -r ./my-file.js:my-module > bundle.js\n```\n\nThen in your page you can do:\n\n``` js\n<script src="bundle.js"></script>\n<script>\n  var through = require(\'through\');\n  var duplexer = require(\'duplexer\');\n  var myModule = require(\'my-module\');\n  /* ... */\n</script>\n```\n\n## external source maps\n\nIf you prefer the source maps be saved to a separate `.js.map` source map file, you may use\n[exorcist](https://github.com/thlorenz/exorcist) in order to archieve that. It\'s as simple as:\n\n```\n$ browserify main.js --debug | exorcist bundle.js.map > bundle.js \n```\n\nLearn about additional options [here](https://github.com/thlorenz/exorcist#usage).\n\n## multiple bundles\n\nIf browserify finds a `require`d function already defined in the page scope, it\nwill fall back to that function if it didn\'t find any matches in its own set of\nbundled modules.\n\nIn this way you can use browserify to split up bundles among multiple pages to\nget the benefit of caching for shared, infrequently-changing modules, while\nstill being able to use `require()`. Just use a combination of `--external` and\n`--require` to factor out common dependencies.\n\nFor example, if a website with 2 pages, `beep.js`:\n\n``` js\nvar robot = require(\'./robot.js\');\nconsole.log(robot(\'beep\'));\n```\n\nand `boop.js`:\n\n``` js\nvar robot = require(\'./robot.js\');\nconsole.log(robot(\'boop\'));\n```\n\nboth depend on `robot.js`:\n\n``` js\nmodule.exports = function (s) { return s.toUpperCase() + \'!\' };\n```\n\n```\n$ browserify -r ./robot > static/common.js\n$ browserify -x ./robot.js beep.js > static/beep.js\n$ browserify -x ./robot.js boop.js > static/boop.js\n```\n\nThen on the beep page you can have:\n\n``` html\n<script src="common.js"></script>\n<script src="beep.js"></script>\n```\n\nwhile the boop page can have:\n\n``` html\n<script src="common.js"></script>\n<script src="boop.js"></script>\n```\n\n## api example\n\nYou can use the API directly too:\n\n``` js\nvar browserify = require(\'browserify\');\nvar b = browserify();\nb.add(\'./browser/main.js\');\nb.bundle().pipe(process.stdout);\n```\n\n# methods\n\n``` js\nvar browserify = require(\'browserify\')\n```\n\n## var b = browserify(files=[] or opts={})\n\nCreate a browserify instance `b` from the entry main `files` or `opts.entries`.\n`files` can be an array of files or a single file.\n\nFor each `file` in `files`, if `file` is a stream, its contents will be used.\nYou should use `opts.basedir` when using streaming files so that relative\nrequires will know where to resolve from.\n\nYou can also specify an `opts.noParse` array which will skip all require() and\nglobal parsing for each file in the array. Use this for giant libs like jquery\nor threejs that don\'t have any requires or node-style globals but take forever\nto parse.\n\n`opts.extensions` is an array of optional extra extensions for the module lookup\nmachinery to use when the extension has not been specified.\nBy default browserify considers only `.js` and `.json` files in such cases.\n\n`opts.basedir` is the directory that browserify starts bundling from for\nfilenames that start with `.`.\n\n`opts.commondir` sets the algorithm used to parse out the common paths. Use\n`false` to turn this off, otherwise it uses the\n[commondir](https://npmjs.or/package/commondir) module.\n\n`opts.builtins` sets the list of builtins to use, which by default is set in\n`lib/builtins.js` in this distribution.\n\n`opts.pack` sets the browser-pack implementation to use. The `opts.pack()`\nshould return a transform stream that accepts objects of the form that\n[module-deps](https://npmjs.org/package/module-deps) generates. Simplifed, this\nis roughly:\n\n```\n{"id":"1","source":"console.log(\'beep boop\')","deps":{}}\n{"id":"2","source":"require(\'./boop.js\')","deps":{"./boop.js":"1"}}\n```\n\nBy default, `opts.pack` uses\n[browser-pack](https://npmjs.org/package/browser-pack):\n\n```\nrequire(\'browser-pack\')({ raw: true, sourceMapPrefix: \'//@\' });\n```\n\n`opts.externalRequireName` defaults to `\'require\'` in `expose` mode but you can\nuse another name.\n\nYou can give browserify a custom `opts.resolve()` function or by default it uses\n[browser-resolve](https://npmjs.org/package/browser-resolve).\n\nNote that if files do not contain javascript source code then you also need to\nspecify a corresponding transform for them.\n\n## b.add(file)\n\nAdd an entry file from `file` that will be executed when the bundle loads.\n\n## b.require(file[, opts])\n\nMake `file` available from outside the bundle with `require(file)`.\n\nThe `file` param is anything that can be resolved by `require.resolve()`.\n\n`file` can also be a stream, but you should also use `opts.basedir` so that\nrelative requires will be resolvable.\n\nUse the `expose` property of opts to specify a custom dependency name. \n`require(\'./vendor/angular/angular.js\', {expose: \'angular\'})` enables `require(\'angular\')`\n\n## b.bundle(opts, cb)\n\nBundle the files and their dependencies into a single javascript file.\n\nReturn a readable stream with the javascript file contents or\noptionally specify a `cb(err, src)` to get the buffered results.\n\nWhen `opts.insertGlobals` is true, always insert `process`, `global`,\n`__filename`, and `__dirname` without analyzing the AST for faster builds but\nlarger output bundles. Default false.\n\nWhen `opts.detectGlobals` is true, scan all files for `process`, `global`,\n`__filename`, and `__dirname`, defining as necessary. With this option npm\nmodules are more likely to work but bundling takes longer. Default true.\n\nWhen `opts.debug` is true, add a source map inline to the end of the bundle.\nThis makes debugging easier because you can see all the original files if\nyou are in a modern enough browser.\n\nWhen `opts.standalone` is a non-empty string, a standalone module is created\nwith that name and a [umd](https://github.com/forbeslindesay/umd) wrapper.\nYou can use namespaces in the standalone global export using a `.` in the string\nname as a separator. For example: `\'A.B.C\'` \n\n`opts.insertGlobalVars` will be passed to\n[insert-module-globals](http://npmjs.org/package/insert-module-globals)\nas the `opts.vars` parameter.\n\n## b.external(file)\n\nPrevent `file` from being loaded into the current bundle, instead referencing\nfrom another bundle.\n\n## b.ignore(file)\n\nPrevent the module name or file at `file` from showing up in the output bundle.\n\nInstead you will get a file with `module.exports = {}`.\n\n## b.exclude(file)\n\nPrevent the module name or file at `file` from showing up in the output bundle.\n\nIf your code tries to `require()` that file it will throw unless you\'ve provided\nanother mechanism for loading it.\n\n## b.transform(opts={}, tr)\n\nTransform source code before parsing it for `require()` calls with the transform\nfunction or module name `tr`.\n\nIf `tr` is a function, it will be called with `tr(file)` and it should return a\n[through-stream](https://github.com/substack/stream-handbook#through)\nthat takes the raw file contents and produces the transformed source.\n\nIf `tr` is a string, it should be a module name or file path of a\n[transform module](https://github.com/substack/module-deps#transforms)\nwith a signature of:\n\n``` js\nvar through = require(\'through\');\nmodule.exports = function (file) { return through() };\n```\n\nYou don\'t need to necessarily use the\n[through](https://npmjs.org/package/through) module, this is just a simple\nexample.\n\nHere\'s how you might compile coffee script on the fly using `.transform()`:\n\n```\nvar coffee = require(\'coffee-script\');\nvar through = require(\'through\');\n\nb.transform(function (file) {\n    var data = \'\';\n    return through(write, end);\n    \n    function write (buf) { data += buf }\n    function end () {\n        this.queue(coffee.compile(data));\n        this.queue(null);\n    }\n});\n```\n\nNote that on the command-line with the `-c` flag you can just do:\n\n```\n$ browserify -c \'coffee -sc\' main.coffee > bundle.js\n```\n\nOr better still, use the [coffeeify](https://github.com/substack/coffeeify)\nmodule:\n\n```\n$ npm install coffeeify\n$ browserify -t coffeeify main.coffee > bundle.js\n```\n\nIf `opts.global` is `true`, the transform will operate on ALL files, despite\nwhether they exist up a level in a `node_modules/` directory. Use global\ntransforms cautiously and sparingly, since most of the time an ordinary\ntransform will suffice. You can also not configure global transforms in a\n`package.json` like you can with ordinary transforms.\n\nGlobal transforms always run after any ordinary transforms have run.\n\n## b.plugin(plugin, opts)\n\nRegister a `plugin` with `opts`. Plugins can be a string module name or a\nfunction the same as transforms.\n\n`plugin(b, opts)` is called with the browserify instance `b`.\n\nFor more information, consult the plugins section below.\n\n## b.deps(opts)\n\nReturn a readable stream of the dependency array generated by module-deps.\n\n# package.json\n\nbrowserify uses the `package.json` in its module resolution algorithm just like\nnode. If there is a `"main"` field, browserify will start resolving the package\nat that point. If there is no `"main"` field, browserify will look for an\n`"index.js"` file in the module root directory. Here are some more\nsophisticated things you can do in the package.json:\n\n## browser field\n\nThere is a special "[browser](https://gist.github.com/4339901)" field you can\nset in your package.json on a per-module basis to override file resolution for\nbrowser-specific versions of files.\n\nFor example, if you want to have a browser-specific module entrypoint for your\n`"main"` field you can just set the `"browser"` field to a string:\n\n``` json\n"browser": "./browser.js"\n```\n\nor you can have overrides on a per-file basis:\n\n``` json\n"browser": {\n  "fs": "level-fs",\n  "./lib/ops.js": "./browser/opts.js"\n}\n```\n\nNote that the browser field only applies to files in the local module and like\ntransforms it doesn\'t apply into `node_modules` directories.\n\n## browserify.transform\n\nYou can specify source transforms in the package.json in the\n`browserify.transform` field. There is more information about how source\ntransforms work in package.json on the\n[module-deps readme](https://github.com/substack/module-deps#transforms).\n\nFor example, if your module requires [brfs](https://npmjs.org/package/brfs), you\ncan add\n\n``` json\n"browserify": { "transform": [ "brfs" ] }\n```\n\nto your package.json. Now when somebody `require()`s your module, brfs will\nautomatically be applied to the files in your module without explicit\nintervention by the person using your module. Make sure to add transforms to\nyour package.json dependencies field.\n\n# events\n\n## b.on(\'file\', function (file, id, parent) {})\n\nWhen a file is resolved for the bundle, the bundle emits a `\'file\'` event with\nthe full `file` path, the `id` string passed to `require()`, and the `parent`\nobject used by\n[browser-resolve](https://github.com/defunctzombie/node-browser-resolve).\n\nYou could use the `file` event to implement a file watcher to regenerate bundles\nwhen files change.\n\n## b.on(\'bundle\', function (bundle) {})\n\nWhen `.bundle()` is called, this event fires with the `bundle` output stream.\n\n## bundle.on(\'transform\', function (tr, file) {})\n\nWhen a transform is applied to a file, the `\'transform\'` event fires on the\nbundle stream with the transform stream `tr` and the `file` that the transform\nis being applied to.\n\n# plugins\n\nFor some more advanced use-cases, a transform is not sufficiently extensible.\nPlugins are modules that take the bundle instance as their first parameter and\nan option hash as their second.\n\nPlugins can be used to do perform some fancy features that transforms can\'t do.\nFor example, [factor-bundle](https://npmjs.org/package/factor-bundle) is a\nplugin that can factor out common dependencies from multiple entry-points into a\ncommon bundle. Use plugins with `-p` and pass options to plugins with\n[subarg](https://npmjs.org/package/subarg) syntax:\n\n```\nbrowserify x.js y.js -p [ factor-bundle -o bundle/x.js -o bundle/y.js ] \\\n  > bundle/common.js\n```\n\nFor a list of plugins, consulte the\n[browserify-plugin tag](https://npmjs.org/browse/keyword/browserify-plugin)\non npm.\n\n# list of source transforms\n\nThere is a [wiki page that lists the known browserify\ntransforms](https://github.com/substack/node-browserify/wiki/list-of-transforms).\n\nIf you write a transform, make sure to add your transform to that wiki page and\nadd a package.json keyword of `browserify-transform` so that\n[people can browse for all the browserify\ntransforms](https://npmjs.org/browse/keyword/browserify-transform) on npmjs.org.\n\n# third-party tools\n\nThere is a [wiki page that lists the known browserify\ntools](https://github.com/substack/node-browserify/wiki/browserify-tools).\n\nIf you write a tool, make sure to add it to that wiki page and\nadd a package.json keyword of `browserify-tool` so that\n[people can browse for all the browserify\ntools](https://npmjs.org/browse/keyword/browserify-tool) on npmjs.org.\n\n# license\n\nMIT\n\n![browserify!](http://substack.net/images/browserify/browserify.png)\n',
+501 silly resolved     readmeFilename: 'readme.markdown',
+501 silly resolved     bugs: { url: 'https://github.com/substack/node-browserify/issues' },
+501 silly resolved     homepage: 'https://github.com/substack/node-browserify',
+501 silly resolved     _id: 'browserify@3.30.2',
+501 silly resolved     dist: { shasum: '9737be670e0a35097c2990f09f046c348686ba15' },
+501 silly resolved     _from: 'browserify@',
+501 silly resolved     _resolved: 'https://registry.npmjs.org/browserify/-/browserify-3.30.2.tgz' } ]
+502 info install browserify@3.30.2 into /usr/local/lib
+503 info installOne browserify@3.30.2
+504 info /usr/local/lib/node_modules/browserify unbuild
+505 verbose tar unpack /Users/vcorey/.npm/browserify/3.30.2/package.tgz
+506 silly lockFile 1b5a9d3b-ocal-lib-node-modules-browserify tar:///usr/local/lib/node_modules/browserify
+507 verbose lock tar:///usr/local/lib/node_modules/browserify /Users/vcorey/.npm/1b5a9d3b-ocal-lib-node-modules-browserify.lock
+508 silly lockFile a3c1f4bd-pm-browserify-3-30-2-package-tgz tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz
+509 verbose lock tar:///Users/vcorey/.npm/browserify/3.30.2/package.tgz /Users/vcorey/.npm/a3c1f4bd-pm-browserify-3-30-2-package-tgz.lock
+510 silly gunzTarPerm modes [ '755', '644' ]
+511 error Error: EACCES, mkdir '/usr/local/lib/node_modules/browserify'
+511 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/browserify']
+511 error   errno: 3,
+511 error   code: 'EACCES',
+511 error   path: '/usr/local/lib/node_modules/browserify',
+511 error   fstream_type: 'Directory',
+511 error   fstream_path: '/usr/local/lib/node_modules/browserify',
+511 error   fstream_class: 'DirWriter',
+511 error   fstream_stack:
+511 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+511 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+511 error      'Object.oncomplete (fs.js:107:15)' ] }
+512 error Please try running this command again as root/Administrator.
+513 error System Darwin 12.5.0
+514 error command "node" "/usr/local/bin/npm" "install" "-g" "browserify"
+515 error cwd /Users/vcorey/development/node-example
+516 error node -v v0.10.26
+517 error npm -v 1.4.3
+518 error path /usr/local/lib/node_modules/browserify
+519 error fstream_path /usr/local/lib/node_modules/browserify
+520 error fstream_type Directory
+521 error fstream_class DirWriter
+522 error code EACCES
+523 error errno 3
+524 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/browserify'
+525 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+525 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+525 error fstream_stack Object.oncomplete (fs.js:107:15)
+526 verbose exit [ 3, true ]
